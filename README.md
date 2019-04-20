@@ -23,8 +23,9 @@ Which is not valid markup for a input with type number.
 Work arounds attempted:
 
 Creating a PropertyEditor - Does not work for Edit page.
-Creating a fields override gsp for long and int _displayWidget.gsp/_displayWidget.gsp
-	Does not work for the Edit page.
+
+
+Creating a fields override gsp for long and int _displayWidget.gsp & _displayWidget.gsp - Does not work for the Edit page.
 
 
 I would imagine a bug like this would be very confusing for a new user to Grails as extremely basic functionality such as editing a number does not work out of the box.
