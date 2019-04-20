@@ -30,4 +30,4 @@ Creating a fields override gsp for long and int _displayWidget.gsp & _displayWid
 
 I would imagine a bug like this would be very confusing for a new user to Grails as extremely basic functionality such as editing a number does not work out of the box.
 
-The default behaviour should be to not put commas in numbers do to the fact it breaks everything.
+The default behavior should be to not put commas in numbers due to the fact it breaks everything.
