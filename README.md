@@ -35,7 +35,7 @@ Setup:
 	
 	3. Create Person.groovy with code provided in documentation.
 	
-	4. Create a sample Person object to demonstrate converter.
+	4. Create a sample Person object in BootStrap.groovy to demonstrate converter.
 	
 	5. run-app and visit http://localhost:8080/person/index
 
