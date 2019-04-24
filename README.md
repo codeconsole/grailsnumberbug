@@ -20,7 +20,6 @@ This is because it is rendering
 
 Which is not valid markup for a input with type number.
 
-
 Bug 2 - @BindingFormat not working
 
 As Documented Here:
