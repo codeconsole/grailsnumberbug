@@ -29,7 +29,7 @@ in the section "Custom Formatted Converters"
 
 Setup:
 
-	1. Create FormattedStringValueConverter.groovy with code provided in documenation.
+	1. Create FormattedStringValueConverter.groovy with code provided in documentation.
 	
 	2. Update grails-app/conf/spring/resources.groovy according to documentation
 	
