@@ -39,3 +39,4 @@ Setup:
 	
 	5. run-app and visit http://localhost:8080/person/index
 
+http://localhost:8080/person/index
