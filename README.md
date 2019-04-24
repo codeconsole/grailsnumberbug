@@ -20,13 +20,18 @@ This is because it is rendering
 
 Which is not valid markup for a input with type number.
 
-Work arounds attempted:
 
-Creating a PropertyEditor - Does not work for Edit page.
-Creating a fields override gsp for long and int _displayWidget.gsp/_displayWidget.gsp
-	Does not work for the Edit page.
+Bug 2 - @BindingFormat not working
 
+As Documented Here:
+http://docs.grails.org/latest/guide/theWebLayer.html#dataBinding
 
-I would imagine a bug like this would be very confusing for a new user to Grails as extremely basic functionality such as editing a number does not work out of the box.
+in the section "Custom Formatted Converters"
 
-The default behaviour should be to not put commas in numbers do to the fact it breaks everything.
+Setup:
+	1. Create FormattedStringValueConverter.groovy with code provided in documenation.
+	2. Update grails-app/conf/spring/resources.groovy according to documentation
+	3. Create Person.groovy with code provided in documentation.
+	4. Create a sample Person object to demonstrate converter.
+	5. run-app and visit http://localhost:8080/person/index
+
