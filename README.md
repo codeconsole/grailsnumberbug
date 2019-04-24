@@ -28,9 +28,14 @@ http://docs.grails.org/latest/guide/theWebLayer.html#dataBinding
 in the section "Custom Formatted Converters"
 
 Setup:
+
 	1. Create FormattedStringValueConverter.groovy with code provided in documenation.
+	
 	2. Update grails-app/conf/spring/resources.groovy according to documentation
+	
 	3. Create Person.groovy with code provided in documentation.
+	
 	4. Create a sample Person object to demonstrate converter.
+	
 	5. run-app and visit http://localhost:8080/person/index
 
